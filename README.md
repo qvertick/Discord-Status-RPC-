@@ -5,7 +5,7 @@
 <h1 align="center">Discord Status <b>(RPC)</b></h1>
 
 <p align="center">
-  <strong>Полностью кастомный статус Rich Presence для твоего профиля Discord 🎮</strong>
+  <strong>Полностью кастомный статус <i>Rich Presence</i> для твоего профиля Discord 🎮</strong>
 </p>
 
 <p align="center">
@@ -15,9 +15,9 @@
 </p>
 
 <p align="center">
-  <a href="#-features">Фичи</a> •
-  <a href="#-demo">Демо</a> •
-  <a href="#-installation--setup">Установка</a> •
+  <a href="#-features">Фичи</a> |
+  <a href="#-demo">Демо</a> |
+  <a href="#-installation--setup">Установка</a> |
   <a href="#-tech-stack">Стек</a>
 </p>
 
