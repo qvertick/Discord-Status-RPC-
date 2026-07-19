@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Img/logo.png" alt="Discord Status RPC Logo" width="700px">
+  <img src="Img/logo.png" alt="Discord Status RPC Logo" width="450px">
 </p>
 
 <h1 align="center">Discord Status <b>(RPC)</b></h1>
