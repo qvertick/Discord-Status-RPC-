@@ -19,7 +19,7 @@ DISCORD_LOGO = """
 os.system('cls' if os.name == 'nt' else 'clear')
 print(DISCORD_LOGO)
 
-client_id = "1509256034169126992"
+client_id = ""
 RPC = Presence(client_id)
 
 print(" -> Ожидание подключения к Discord...")
@@ -39,8 +39,8 @@ start_time = time.time()
 while True:
     try:
         RPC.update(
-            state="tg : @qvertick",
-            details="I use Arch btw",
+            state="tg : XXX",       #Вторая строка
+            details=" XXX ",        #Первая строка
             start=start_time,
             large_image="logo",
             large_text="<3",
