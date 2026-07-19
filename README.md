@@ -1,10 +1,6 @@
 <p align="center">
-  <img src="Img/logo.png" alt="Discord Status RPC Logo" width="550px">
-</p>
-
-<h1 align="center">Discord Status <b>(RPC)</b></h1>
-
-<p align="center">
+  <img src="Img/logo.png" alt="Discord Status RPC Logo" width="450px"><br>
+  <b><font size="6">Discord Status (RPC)</font></b><br>
   <strong>Полностью кастомный статус <i>Rich Presence</i> для твоего профиля Discord 🎮</strong>
 </p>
 
@@ -23,7 +19,7 @@
 
 ---
 
-> Простой и гибкий скрипт, который позволяет обойти стандартные ограничения Дискорда и выводить в игровой статус абсолютно любой текст, кастомные кнопки со ссылками, таймеры и картинки. Идеально для тех, кто хочет показать, что он кодит, учит Linux или просто занимается важными делами. ( Никто не запрещает вам ставить туда то - что вашей душе угодно )
+> Простой и гибкий скрипт, который позволяет обойти стандартные ограничения Дискорда и выводить в игровой статус абсолютно любой текст, кастомные кнопки со ссылками, таймеры и картинки. Идеально для тех, кто хочет показать, что он кодит, учит Linux или просто занимается важными делами. ( Никто не запрещает вам ставить туда то — что вашей душе угодно )
 
 ---
 
@@ -56,14 +52,16 @@
 
 ## 📦 Installation & Setup
 
-### ▣. (Windows) Как менять <b>аватар</b> & <b>Гл. Надпись?</b>
-( через сайт Discord Developres )
+### 🛠️ Настройка через Discord Developers (Windows)
+*Как менять аватар и главную надпись на сайте Discord Developers:*
+
 <p align="center">
-  <img src="Gif/preview2.gif" alt="Discord RPC Demo" width="100%">
+  <img src="Gif/preview2.gif" alt="Discord RPC Настройка" width="100%">
 </p>
 
-### ▢. Клонирование репозитория //установка <b>только</b> длля Linux or Windows Terminal
-(Linux / Windows Terminal) Открой свой терминал и выполни:
+### 🐧 Клонирование репозитория (Linux / Windows Terminal)
+Открой свой терминал и выполни команды:
+
 ```bash
 git clone [https://github.com/qvertick/Discord-Status-RPC-.git](https://github.com/qvertick/Discord-Status-RPC-.git)
 cd Discord-Status-RPC-
