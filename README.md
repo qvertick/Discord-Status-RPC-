@@ -32,7 +32,7 @@
 Вот так скрипт работает вживую при запуске из консоли:
 
 <p align="center">
-  <img src="./preview.gif" alt="Discord RPC Demo" width="100%">
+  <img src="Gif/preview.gif" alt="Discord RPC Demo" width="100%">
 </p>
 
 ---
