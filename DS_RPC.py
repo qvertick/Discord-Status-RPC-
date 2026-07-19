@@ -1,27 +1,53 @@
 import time
+import sys
+import os
 from pypresence import Presence
 
-# Сюда вставляешь свой скопированный Application ID
-client_id = ""
+# Красивое текстовое лого в стиле neofetch
+DISCORD_LOGO = """
+        @@@@@@@@        qvertick@rpc
+      @@@@@@@@@@@@      ------------
+    @@@@  @@@@  @@@@    OS: Discord Status RPC
+   @@@@@@@@@@@@@@@@@@   Status: Active 🎮
+  @@@@@@@@@@@@@@@@@@@@  Target: Custom Rich Presence
+  @@@@  @@@@@@@@  @@@@  Engine: pypresence (Python)
+  @@@@@@        @@@@@@  
+    @@@@@@@@@@@@@@@@    
+"""
 
-# Подключаемся к Дискорду
+# Очистка консоли перед выводом (работает и на Windows, и на Linux)
+os.system('cls' if os.name == 'nt' else 'clear')
+print(DISCORD_LOGO)
+
+client_id = "1509256034169126992"
 RPC = Presence(client_id)
-RPC.connect()
 
-print("Статус активен, троляканье = true")
-
-# Настройка того, что будет написано в статусе
-RPC.update(
-    state="tg : @XXX",        # Нижняя строчка текста
-    details="XXX",            # Верхняя строчка текста
-    start=time.time(),                  # Включает счетчик времени
-    large_image="logo",                 # Имя картинки из Art Assets
-    large_text="<3",       # Текст при наведении на картинку
-    buttons=[
-        {"label": "Мой Гитхаб", "url": "https://github.com/qvertick"}
-    ]
-)
-
-# Цикл, чтобы скрипт не закрывался и статус держался
+print(" -> Ожидание подключения к Discord...")
 while True:
-    time.sleep(15)
+    try:
+        RPC.connect()
+        break
+    except Exception:
+        time.sleep(5)
+
+print(" -> Успешно подключено! Статус обновлен.")
+
+# Стартовое время, чтобы таймер не сбрасывался при каждом обновлении
+start_time = time.time()
+
+# Цикл поддержания статуса с проверкой активности Discord
+while True:
+    try:
+        RPC.update(
+            state="tg : @qvertick",
+            details="I use Arch btw",
+            start=start_time,
+            large_image="logo",
+            large_text="<3",
+            buttons=[{"label": "Мой Гитхаб", "url": "https://github.com/qvertick"}]
+        )
+        time.sleep(15)
+    except Exception:
+        print("\n[!] Discord был закрыт. Завершение работы скрипта...")
+        time.sleep(2)
+        sys.exit()
