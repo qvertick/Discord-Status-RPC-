@@ -56,7 +56,13 @@
 
 ## 📦 Installation & Setup
 
-### 1. Клонирование репозитория
+### 1. Запуск из консоли
+
+<p align="center">
+  <img src="Gif/preview2.gif" alt="Discord RPC Demo" width="100%">
+</p>
+
+### 2. Клонирование репозитория
 Открой свой терминал (в Linux или Windows Terminal) и выполни:
 ```bash
 git clone [https://github.com/qvertick/Discord-Status-RPC-.git](https://github.com/qvertick/Discord-Status-RPC-.git)
