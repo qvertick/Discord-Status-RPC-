@@ -56,14 +56,14 @@
 
 ## 📦 Installation & Setup
 
-### 1. Запуск из консоли
-
+### ▣. (Windows) Как менять <b>аватар</b> & <b>Гл. Надпись?</b>
+( через сайт Discord Developres )
 <p align="center">
   <img src="Gif/preview2.gif" alt="Discord RPC Demo" width="100%">
 </p>
 
-### 2. Клонирование репозитория
-Открой свой терминал (в Linux или Windows Terminal) и выполни:
+### ▢. Клонирование репозитория //установка <b>только</b> длля Linux or Windows Terminal
+(Linux / Windows Terminal) Открой свой терминал и выполни:
 ```bash
 git clone [https://github.com/qvertick/Discord-Status-RPC-.git](https://github.com/qvertick/Discord-Status-RPC-.git)
 cd Discord-Status-RPC-
